@@ -1,0 +1,16 @@
+{
+	"software_list": [
+		{
+			"Name": "Bluebeam",
+			"local_program_path": "C:\\Program Files\\Bluebeam Software\\Bluebeam Revu\\2019\\Revu\\Revu.exe",
+			"target_version": "19.1.15.84",
+			"install_command": "msiexec.exe /i \"\\\\server.local\\Software\\Bluebeam_Deploy\\Bluebeam Revu x64 19.msi\" TRANSFORMS=`\"\\\\sdv.local\\Software\\Bluebeam_Deploy\\Bluebeam Revu x64 19.mst`\" /qn"
+		},
+		{
+			"Name": "Chrome",
+			"local_program_path": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+			"target_version": "80.0.3987.132",
+			"install_command": "msiexec.exe /i \"\\\\server.local\\Software\\Google\\GoogleChromeStandaloneEnterprise64.msi\" /qn"
+		}
+	]
+}
